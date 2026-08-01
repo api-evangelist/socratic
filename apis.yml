@@ -1,7 +1,27 @@
 aid: socratic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socratic.png
 name: Socratic
-description: Socratic is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Socratic is an AI-powered homework help and learning app that lets students
+  photograph or type a question and receive curated explanations, videos, and
+  step-by-step resources across math, science, literature, and social studies.
+  Founded in 2013 and backed at the early stage by investors including Andreessen
+  Horowitz, Socratic was acquired by Google in 2018 and now operates as "Socratic
+  by Google," a free consumer mobile app whose homework-help capabilities have
+  largely been folded into Google Lens. Socratic publishes no public API,
+  developer portal, SDKs, or documented developer surface; this profile records
+  it as an acquired consumer product with no independent API footprint.
 url: https://raw.githubusercontent.com/api-evangelist/socratic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,34 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Google
+x-acquired-year: 2018
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Learning
+- Artificial Intelligence
+- Homework Help
+- Consumer App
+- Mobile
 apis: []
+common:
+- type: DomainSecurity
+  url: security/socratic-domain-security.yml
+- type: Website
+  url: https://www.socratic.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
