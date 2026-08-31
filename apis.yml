@@ -57,6 +57,11 @@ tags:
 - Mobile
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "Founded in 2013 and backed at the early stage by investors including Andreessen Horowitz, Socratic was acquired by Google in 2018 and now operates as 'Socratic by Google,' a free consumer mobile app whose homework-help capabilities have lar"
 - type: DomainSecurity
   url: security/socratic-domain-security.yml
 - type: Website
